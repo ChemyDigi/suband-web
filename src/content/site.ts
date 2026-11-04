@@ -67,7 +67,7 @@ export const collection = [
     title: "Brass Trophies",
     short: "Cast, turned and hand-polished cups.",
     body: "Our signature. Solid brass cups and figures cast in-house, turned on the lathe and polished by hand to a mirror finish that deepens with age.",
-    image: "/images/brass-cups.jpg",
+    image: "/images/Collection/Brass-trophies.jpg",
     alt: "Three brass trophy cups on dark wooden bases",
   },
   {
@@ -76,7 +76,7 @@ export const collection = [
     title: "Presentation Plaques",
     short: "Teak, mahogany and engraved brass.",
     body: "Hardwood plaques with engraved brass plates — the quiet, permanent form of recognition favoured by universities and boardrooms.",
-    image: "/images/plaque.jpg",
+    image: "/images/Collection/plaques.jpg",
     alt: "Teak presentation plaque with an engraved brass plate",
   },
   {
@@ -94,7 +94,7 @@ export const collection = [
     title: "Medals & Medallions",
     short: "Die-struck, enamelled, ribboned.",
     body: "Gold, silver and bronze medals die-struck to your artwork, with enamel fill and custom-woven ribbons for schools, federations and marathons.",
-    image: "/images/medals.jpg",
+    image: "/images/Collection/Medals.jpg",
     alt: "Gold, silver and bronze medals with maroon ribbons on velvet",
   },
   {
@@ -112,7 +112,7 @@ export const collection = [
     title: "Anodised Aluminium Labels",
     short: "Nameplates, badges and signage.",
     body: "Precision-etched and anodised aluminium nameplates, name badges and machine labels, durable enough for a lifetime of handling.",
-    image: "/images/engraving.jpg",
+    image: "/images/Collection/Aluminum-labels.jpg",
     alt: "Engraving tool cutting into a brass plate",
   },
 ];
@@ -146,7 +146,7 @@ export const services = [
     numeral: "05",
     title: "Restoration",
     body: "Heirloom cups re-polished, re-plated and re-engraved. Many of the trophies we restore were first made by us decades ago.",
-    image: "/images/brass-cups.jpg",
+    image: "/images/Collection/Brass-trophies.jpg",
   },
 ];
 
