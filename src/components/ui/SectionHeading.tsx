@@ -23,10 +23,8 @@ export function SectionHeading({
     <div className={cn(align === "center" && "mx-auto text-center", className)}>
       {eyebrow && (
         <Reveal amount={0.6}>
-          <p className={cn("eyebrow mb-6 flex items-center gap-4", align === "center" && "justify-center")}>
-            <span className="h-px w-8 bg-gold/60" />
+          <p className={cn("eyebrow mb-6", align === "center" && "text-center")}>
             {eyebrow}
-            {align === "center" && <span className="h-px w-8 bg-gold/60" />}
           </p>
         </Reveal>
       )}

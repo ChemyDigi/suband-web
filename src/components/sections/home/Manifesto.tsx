@@ -21,10 +21,7 @@ export function Manifesto() {
     <section className="relative bg-ink">
       <Marquee items={clients} />
       <div ref={ref} className="mx-auto max-w-[1400px] px-6 py-32 md:px-10 md:py-48">
-        <p className="eyebrow mb-12 flex items-center gap-4">
-          <span className="h-px w-8 bg-gold/60" />
-          Why we make
-        </p>
+        <p className="eyebrow mb-12">Why we make</p>
         <p className="font-display flex flex-wrap text-3xl leading-[1.25] md:text-5xl lg:text-6xl">
           {words.map((w, i) => (
             <Word key={i} progress={scrollYProgress} range={[i / words.length, (i + 1) / words.length]}>

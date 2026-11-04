@@ -88,8 +88,7 @@ function Chapter({
             <span className="font-display absolute right-10 top-10 hidden text-[14rem] leading-none text-ivory/[0.06] md:block">
               {item.numeral}
             </span>
-            <p className="eyebrow mb-6 flex items-center gap-4">
-              <span className="h-px w-8 bg-gold/60" />
+            <p className="eyebrow mb-6">
               {item.numeral} / {String(total).padStart(2, "0")}
             </p>
             <h2 className="font-display text-4xl leading-[1.02] text-ivory md:text-6xl lg:text-7xl">{item.title}</h2>

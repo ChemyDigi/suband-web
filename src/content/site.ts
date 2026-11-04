@@ -155,21 +155,25 @@ export const process = [
     step: "01",
     title: "Brief",
     body: "Tell us the occasion, the recipients, the quantity and the date. We'll advise on form and material within a day.",
+    image: "/images/home/brief.png",
   },
   {
     step: "02",
     title: "Design",
     body: "A dimensioned drawing and finish sample for your approval. Nothing is cast until the proportions are right.",
+    image: "/images/home/design.png",
   },
   {
     step: "03",
     title: "Make",
     body: "Casting, turning, assembly and engraving — all under one roof in Nugegoda, by craftsmen who have done this for decades.",
+    image: "/images/home/make.png",
   },
   {
     step: "04",
     title: "Deliver",
     body: "Each piece inspected, polished and boxed. Collected from the workshop or delivered island-wide.",
+    image: "/images/home/deliver.png",
   },
 ];
 

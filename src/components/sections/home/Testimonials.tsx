@@ -19,10 +19,7 @@ export function Testimonials() {
       <div className="mx-auto grid max-w-[1600px] gap-12 px-6 py-28 md:grid-cols-12 md:px-10 md:py-40">
         <div className="md:col-span-3">
           <Reveal>
-            <p className="eyebrow flex items-center gap-4">
-              <span className="h-px w-8 bg-gold/60" />
-              Kind words
-            </p>
+            <p className="eyebrow">Kind words</p>
           </Reveal>
           <div className="mt-10 flex gap-3">
             {testimonials.map((_, idx) => (
@@ -52,8 +49,7 @@ export function Testimonials() {
               className="relative"
             >
               <p className="font-display text-3xl leading-[1.2] text-ivory md:text-5xl">{t.quote}</p>
-              <footer className="mt-8 flex items-center gap-4 text-sm text-ivory-2">
-                <span className="h-px w-8 bg-gold" />
+              <footer className="mt-8 text-sm text-ivory-2">
                 <span>
                   {t.name} <span className="text-muted">— {t.org}</span>
                 </span>

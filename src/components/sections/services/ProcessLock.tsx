@@ -47,10 +47,7 @@ export function ProcessLock() {
 
         <div className="relative mx-auto grid w-full max-w-[1600px] gap-10 px-6 md:grid-cols-12 md:px-10">
           <div className="md:col-span-5">
-            <p className="eyebrow mb-6 flex items-center gap-4">
-              <span className="h-px w-8 bg-gold/60" />
-              How a commission works
-            </p>
+            <p className="eyebrow mb-6">How a commission works</p>
             <div className="relative h-[8rem] overflow-hidden md:h-[14rem]">
               <AnimatePresence mode="popLayout" initial={false}>
                 <motion.span
