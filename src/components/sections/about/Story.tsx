@@ -10,8 +10,8 @@ export function Story() {
         <div className="md:col-span-5">
           <Unmask className="aspect-[3/4] overflow-hidden">
             <Image
-              src="/images/workshop.jpg"
-              alt="Craftsman polishing a brass trophy by hand"
+              src="/images/about/our-story.jpg"
+              alt="Craftsman turning a brass trophy cup on a lathe in the workshop"
               fill
               sizes="(min-width: 768px) 40vw, 100vw"
               className="object-cover"
