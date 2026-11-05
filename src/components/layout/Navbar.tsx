@@ -58,21 +58,23 @@ export function Navbar() {
           </Link>
 
           <nav className="hidden items-center gap-10 md:flex">
-            {nav.map((item) => {
-              const active = pathname === item.href;
-              return (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className={cn(
-                    "link-sweep text-[0.72rem] uppercase tracking-[0.24em] transition-colors duration-300",
-                    active ? "text-gold" : "text-ivory-2 hover:text-ivory",
-                  )}
-                >
-                  {item.label}
-                </Link>
-              );
-            })}
+            {nav
+              .filter((item) => item.href !== "/contact")
+              .map((item) => {
+                const active = pathname === item.href;
+                return (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className={cn(
+                      "link-sweep text-[0.72rem] uppercase tracking-[0.24em] transition-colors duration-300",
+                      active ? "text-gold" : "text-ivory-2 hover:text-ivory",
+                    )}
+                  >
+                    {item.label}
+                  </Link>
+                );
+              })}
             <Link
               href="/contact"
               className="group relative overflow-hidden border border-line-strong px-5 py-2.5 text-[0.68rem] uppercase tracking-[0.24em] text-ivory transition-colors duration-500 hover:text-ink"
@@ -128,7 +130,7 @@ export function Navbar() {
                       pathname === item.href ? "text-gold font-black" : "text-ivory",
                     )}
                   >
-                    {item.label}
+                    {item.href === "/contact" ? "Inquire" : item.label}
                   </Link>
                 </motion.li>
               ))}
