@@ -31,13 +31,13 @@ export function Hero() {
         {/* Ambient atmospheric lighting */}
         <div
           aria-hidden
-          className="pointer-events-none absolute right-[10%] top-1/2 -translate-y-1/2 h-[75vmin] w-[75vmin] rounded-full bg-gold/10 blur-[130px]"
+          className="pointer-events-none absolute right-[10%] top-1/2 -translate-y-1/2 h-[75vmin] w-[75vmin] rounded-full bg-gold/10 blur-[130px] md:right-[22%]"
         />
 
         {/* Geometric calibration rings */}
         <motion.div
           style={{ rotate: ringRotate, scale: ringScale }}
-          className="pointer-events-none absolute left-1/2 top-1/2 -z-0 h-[110vmin] w-[110vmin] -translate-x-1/2 -translate-y-1/2 md:left-[66%]"
+          className="pointer-events-none absolute left-1/2 top-1/2 -z-0 h-[110vmin] w-[110vmin] -translate-x-1/2 -translate-y-1/2 md:left-[54%]"
           aria-hidden
         >
           <svg viewBox="0 0 100 100" className="h-full w-full">
@@ -52,7 +52,7 @@ export function Hero() {
         {/* Trophy Hero Image Stage */}
         <motion.div
           style={{ scale: imgScale, y: imgY }}
-          className="absolute inset-y-0 right-0 w-full md:left-[40%] md:w-[60%] lg:left-[38%] lg:w-[62%]"
+          className="absolute inset-y-0 right-0 w-full md:left-[18%] md:w-[82%] lg:left-[14%] lg:w-[86%]"
         >
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
@@ -61,12 +61,12 @@ export function Hero() {
             className="relative h-full w-full"
           >
             <Image
-              src="/images/hero-images/home.png"
+              src="/images/hero-images/about.png"
               alt="Museum-quality solid cast brass championship cup trophy on black marble plinth"
               fill
               priority
-              sizes="(min-width: 1024px) 62vw, (min-width: 768px) 60vw, 100vw"
-              className="object-cover object-center opacity-40 md:opacity-100"
+              sizes="(min-width: 1024px) 86vw, (min-width: 768px) 82vw, 100vw"
+              className="object-cover object-center md:object-[60%_center] opacity-40 md:opacity-100"
             />
             {/* Gradients to seamlessly melt image into dark background */}
             <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/50 to-transparent md:from-ink md:via-ink/30" />

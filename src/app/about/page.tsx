@@ -20,7 +20,7 @@ export default function AboutPage() {
         title="Three generations, one bench."
         accent={[2]}
         body="A family business that has been casting, engraving and polishing awards in Nugegoda for over half a century."
-        image="/images/hero-images/about.png"
+        image="/images/hero-images/home.png"
         alt="About the workshop"
       />
       <Story />

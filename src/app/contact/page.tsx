@@ -20,7 +20,7 @@ export default function ContactPage() {
         title="Visit the workshop."
         accent={[2]}
         body="We answer every enquiry within a working day. Or come and see the pieces in hand — the kettle is always on."
-        image="/images/workshop.jpg"
+        image="/images/hero-images/inquire.png"
         alt="Inside the workshop"
       />
 
