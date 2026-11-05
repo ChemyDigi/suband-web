@@ -7,7 +7,7 @@ import { process } from "@/content/site";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { cn } from "@/lib/utils";
 
-const IMAGES = ["/images/plaque.jpg", "/images/engraving.jpg", "/images/workshop.jpg", "/images/brass-cups.jpg"];
+const IMAGES = ["/images/home/brief.png", "/images/home/design.png", "/images/home/make.png", "/images/home/deliver.png"];
 
 /**
  * Pinned process. Left column (image + giant step numeral) is sticky while
@@ -45,7 +45,13 @@ export function Craft() {
                     transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
                     className="absolute inset-0"
                   >
-                    <Image src={src} alt="" fill sizes="40vw" className="object-cover" />
+                    <Image
+                      src={src}
+                      alt={process[i] ? `${process[i].step} - ${process[i].title}` : ""}
+                      fill
+                      sizes="40vw"
+                      className="object-cover"
+                    />
                   </motion.div>
                 ))}
                 <div className="absolute inset-0 bg-gradient-to-t from-ink/80 to-transparent" />

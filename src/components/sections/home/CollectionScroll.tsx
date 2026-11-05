@@ -42,13 +42,10 @@ export function CollectionScroll() {
           <div className="flex items-end justify-between gap-6">
             <div>
               <Reveal amount={0.5}>
-                <p className="eyebrow mb-5 flex items-center gap-4">
-                  <span className="h-px w-8 bg-gold/60" />
-                  The collection
-                </p>
+                <p className="eyebrow mb-5">The collection</p>
               </Reveal>
               <SplitText
-                text="Six families of award."
+                text="Five families of award."
                 accent={[3]}
                 className="font-display text-4xl leading-none text-ivory md:text-6xl"
               />
@@ -73,10 +70,7 @@ export function CollectionScroll() {
                 <br />
                 <em>collection</em>
               </span>
-              <span className="eyebrow flex items-center gap-3">
-                <span className="h-px w-8 bg-gold transition-all duration-500 group-hover:w-16" />
-                Explore
-              </span>
+              <span className="eyebrow">Explore</span>
             </Link>
           </div>
         </motion.div>

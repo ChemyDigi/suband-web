@@ -70,10 +70,7 @@ export default function ContactPage() {
           {/* Form */}
           <div className="md:col-span-7 md:col-start-6">
             <Reveal>
-              <p className="eyebrow mb-10 flex items-center gap-4">
-                <span className="h-px w-8 bg-gold/60" />
-                Send an enquiry
-              </p>
+              <p className="eyebrow mb-10">Send an enquiry</p>
             </Reveal>
             <Reveal delay={0.15}>
               <ContactForm />

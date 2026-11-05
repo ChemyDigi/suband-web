@@ -10,16 +10,15 @@ export function Story() {
         <div className="md:col-span-5">
           <Unmask className="aspect-[3/4] overflow-hidden">
             <Image
-              src="/images/workshop.jpg"
-              alt="Craftsman polishing a brass trophy by hand"
+              src="/images/about/our-story.jpg"
+              alt="Craftsman turning a brass trophy cup on a lathe in the workshop"
               fill
               sizes="(min-width: 768px) 40vw, 100vw"
               className="object-cover"
             />
           </Unmask>
           <Reveal delay={0.3}>
-            <p className="mt-5 flex items-center gap-4 text-xs text-muted">
-              <span className="h-px w-6 bg-gold/60" />
+            <p className="mt-5 text-xs text-muted">
               The workshop floor, Old Kesbewa Road
             </p>
           </Reveal>
@@ -27,10 +26,7 @@ export function Story() {
 
         <div className="flex flex-col justify-center md:col-span-6 md:col-start-7">
           <Reveal>
-            <p className="eyebrow mb-6 flex items-center gap-4">
-              <span className="h-px w-8 bg-gold/60" />
-              Our story
-            </p>
+            <p className="eyebrow mb-6">Our story</p>
           </Reveal>
           <SplitText
             text="It began with a single cup."

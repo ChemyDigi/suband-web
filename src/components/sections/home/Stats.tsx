@@ -12,11 +12,7 @@ export function Stats() {
       </div>
       <div className="relative mx-auto max-w-[1600px] px-6 py-32 md:px-10 md:py-44">
         <Reveal>
-          <p className="eyebrow mb-16 flex items-center justify-center gap-4 text-center">
-            <span className="h-px w-8 bg-gold/60" />
-            In numbers
-            <span className="h-px w-8 bg-gold/60" />
-          </p>
+          <p className="eyebrow mb-16 text-center">In numbers</p>
         </Reveal>
         <Stagger className="grid grid-cols-2 gap-y-16 md:grid-cols-4" stagger={0.12}>
           {stats.map((s) => (

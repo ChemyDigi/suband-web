@@ -39,8 +39,7 @@ export function PageHero({
 
       <motion.div style={{ opacity }} className="relative z-10 mx-auto w-full max-w-[1600px] px-6 md:px-10">
         <Reveal amount={0.1}>
-          <p className="eyebrow mb-8 flex items-center gap-4">
-            <span className="h-px w-10 bg-gold/70" />
+          <p className="eyebrow mb-8">
             {eyebrow}
           </p>
         </Reveal>

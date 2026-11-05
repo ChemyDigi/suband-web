@@ -67,7 +67,7 @@ export const collection = [
     title: "Brass Trophies",
     short: "Cast, turned and hand-polished cups.",
     body: "Our signature. Solid brass cups and figures cast in-house, turned on the lathe and polished by hand to a mirror finish that deepens with age.",
-    image: "/images/brass-cups.jpg",
+    image: "/images/Collection/Brass-trophies.jpg",
     alt: "Three brass trophy cups on dark wooden bases",
   },
   {
@@ -76,7 +76,7 @@ export const collection = [
     title: "Presentation Plaques",
     short: "Teak, mahogany and engraved brass.",
     body: "Hardwood plaques with engraved brass plates — the quiet, permanent form of recognition favoured by universities and boardrooms.",
-    image: "/images/plaque.jpg",
+    image: "/images/Collection/plaques.jpg",
     alt: "Teak presentation plaque with an engraved brass plate",
   },
   {
@@ -85,7 +85,7 @@ export const collection = [
     title: "Acrylic & Crystal Awards",
     short: "Light, cut and gold-accented.",
     body: "Modern forms in optically clear acrylic and crystal, laser-engraved and finished with brass or gold-leaf detailing.",
-    image: "/images/acrylic.jpg",
+    image: "/images/Collection/acrylic.jpg",
     alt: "Clear acrylic award with a gold base",
   },
   {
@@ -94,25 +94,16 @@ export const collection = [
     title: "Medals & Medallions",
     short: "Die-struck, enamelled, ribboned.",
     body: "Gold, silver and bronze medals die-struck to your artwork, with enamel fill and custom-woven ribbons for schools, federations and marathons.",
-    image: "/images/medals.jpg",
+    image: "/images/Collection/Medals.jpg",
     alt: "Gold, silver and bronze medals with maroon ribbons on velvet",
   },
   {
-    slug: "souvenirs",
-    numeral: "05",
-    title: "Souvenirs & Mementos",
-    short: "Small objects, lasting memory.",
-    body: "Corporate and ceremonial souvenirs — miniature cups, desk pieces, keepsakes — produced in brass, wood and anodised aluminium.",
-    image: "/images/gallery.jpg",
-    alt: "Gallery of brass awards on backlit shelves",
-  },
-  {
     slug: "labels",
-    numeral: "06",
+    numeral: "05",
     title: "Anodised Aluminium Labels",
     short: "Nameplates, badges and signage.",
     body: "Precision-etched and anodised aluminium nameplates, name badges and machine labels, durable enough for a lifetime of handling.",
-    image: "/images/engraving.jpg",
+    image: "/images/Collection/Aluminum-labels.jpg",
     alt: "Engraving tool cutting into a brass plate",
   },
 ];
@@ -146,7 +137,7 @@ export const services = [
     numeral: "05",
     title: "Restoration",
     body: "Heirloom cups re-polished, re-plated and re-engraved. Many of the trophies we restore were first made by us decades ago.",
-    image: "/images/brass-cups.jpg",
+    image: "/images/Collection/Brass-trophies.jpg",
   },
 ];
 
@@ -155,21 +146,25 @@ export const process = [
     step: "01",
     title: "Brief",
     body: "Tell us the occasion, the recipients, the quantity and the date. We'll advise on form and material within a day.",
+    image: "/images/home/brief.png",
   },
   {
     step: "02",
     title: "Design",
     body: "A dimensioned drawing and finish sample for your approval. Nothing is cast until the proportions are right.",
+    image: "/images/home/design.png",
   },
   {
     step: "03",
     title: "Make",
     body: "Casting, turning, assembly and engraving — all under one roof in Nugegoda, by craftsmen who have done this for decades.",
+    image: "/images/home/make.png",
   },
   {
     step: "04",
     title: "Deliver",
     body: "Each piece inspected, polished and boxed. Collected from the workshop or delivered island-wide.",
+    image: "/images/home/deliver.png",
   },
 ];
 

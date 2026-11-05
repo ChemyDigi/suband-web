@@ -83,14 +83,8 @@ export function Hero() {
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1.2, delay: 1.2, ease: EASE }}
-            className="rounded-xl border border-line-strong bg-ink-2/80 p-5 shadow-2xl backdrop-blur-md"
+            className="border border-line-strong bg-ink-2/80 p-5 shadow-2xl backdrop-blur-md"
           >
-            <div className="flex items-center gap-2 mb-2">
-              <span className="h-1.5 w-1.5 rounded-full bg-gold" />
-              <span className="text-[0.625rem] font-bold uppercase tracking-[0.24em] text-gold-2">
-                Atelier Spec · N° 01
-              </span>
-            </div>
             <p className="font-display text-sm font-bold tracking-tight text-ivory">
               Solid Hand-Cast Brass Championship Cup
             </p>
@@ -130,7 +124,7 @@ export function Hero() {
             <div className="flex flex-wrap items-center gap-4">
               <Button href="/collection">The Collection</Button>
               <Button href="/contact" variant="ghost">
-                Enquire
+                Inquire
               </Button>
             </div>
           </motion.div>

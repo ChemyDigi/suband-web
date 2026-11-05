@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion, useMotionValueEvent, useScroll } from "motion/react";
 import { nav, site } from "@/content/site";
 import { cn } from "@/lib/utils";
-import { Monogram } from "@/components/ui/Monogram";
+
 
 export function Navbar() {
   const pathname = usePathname();
@@ -37,15 +37,12 @@ export function Navbar() {
         )}
       >
         <div className="mx-auto flex h-20 max-w-[1600px] items-center justify-between px-6 md:px-10">
-          <Link href="/" className="group flex items-center gap-3">
-            <Monogram className="h-9 w-9 text-gold transition-transform duration-700 ease-[cubic-bezier(.16,1,.3,1)] group-hover:rotate-[20deg]" />
-            <span className="hidden flex-col leading-none sm:flex">
-              <span className="font-display text-[1.05rem] tracking-wide text-ivory">
-                Sugathadasa Bandara
-              </span>
-              <span className="eyebrow mt-1 text-[0.55rem] text-gold/80">
-                & Sons · Est. {site.established}
-              </span>
+          <Link href="/" className="group flex flex-col leading-none transition-opacity duration-300 hover:opacity-85">
+            <span className="font-display text-[1.05rem] tracking-wide text-white">
+              Sugathadasa Bandara
+            </span>
+            <span className="eyebrow mt-1 text-[0.55rem] tracking-[0.2em] text-white">
+              & Sons (Pvt) Ltd
             </span>
           </Link>
 
@@ -70,7 +67,7 @@ export function Navbar() {
               className="group relative overflow-hidden border border-line-strong px-5 py-2.5 text-[0.68rem] uppercase tracking-[0.24em] text-ivory transition-colors duration-500 hover:text-ink"
             >
               <span className="absolute inset-0 -translate-y-full bg-gold transition-transform duration-500 ease-[cubic-bezier(.16,1,.3,1)] group-hover:translate-y-0" />
-              <span className="relative">Enquire</span>
+              <span className="relative">Inquire</span>
             </Link>
           </nav>
 
