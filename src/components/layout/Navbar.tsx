@@ -67,7 +67,7 @@ export function Navbar() {
               className="group relative overflow-hidden border border-line-strong px-5 py-2.5 text-[0.68rem] uppercase tracking-[0.24em] text-ivory transition-colors duration-500 hover:text-ink"
             >
               <span className="absolute inset-0 -translate-y-full bg-gold transition-transform duration-500 ease-[cubic-bezier(.16,1,.3,1)] group-hover:translate-y-0" />
-              <span className="relative">Enquire</span>
+              <span className="relative">Inquire</span>
             </Link>
           </nav>
 

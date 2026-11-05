@@ -124,7 +124,7 @@ export function Hero() {
             <div className="flex flex-wrap items-center gap-4">
               <Button href="/collection">The Collection</Button>
               <Button href="/contact" variant="ghost">
-                Enquire
+                Inquire
               </Button>
             </div>
           </motion.div>

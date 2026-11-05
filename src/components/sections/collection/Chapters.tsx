@@ -96,7 +96,7 @@ function Chapter({
             <p className="mt-8 max-w-md text-base leading-relaxed text-ivory-2">{item.body}</p>
             <div className="mt-10">
               <Button href="/contact" variant="ghost">
-                Enquire about {item.title.split(" ")[0].toLowerCase()}
+                Inquire about {item.title.split(" ")[0].toLowerCase()}
               </Button>
             </div>
           </div>

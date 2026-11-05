@@ -85,7 +85,7 @@ export const collection = [
     title: "Acrylic & Crystal Awards",
     short: "Light, cut and gold-accented.",
     body: "Modern forms in optically clear acrylic and crystal, laser-engraved and finished with brass or gold-leaf detailing.",
-    image: "/images/acrylic.jpg",
+    image: "/images/Collection/acrylic.jpg",
     alt: "Clear acrylic award with a gold base",
   },
   {
@@ -98,17 +98,8 @@ export const collection = [
     alt: "Gold, silver and bronze medals with maroon ribbons on velvet",
   },
   {
-    slug: "souvenirs",
-    numeral: "05",
-    title: "Souvenirs & Mementos",
-    short: "Small objects, lasting memory.",
-    body: "Corporate and ceremonial souvenirs — miniature cups, desk pieces, keepsakes — produced in brass, wood and anodised aluminium.",
-    image: "/images/gallery.jpg",
-    alt: "Gallery of brass awards on backlit shelves",
-  },
-  {
     slug: "labels",
-    numeral: "06",
+    numeral: "05",
     title: "Anodised Aluminium Labels",
     short: "Nameplates, badges and signage.",
     body: "Precision-etched and anodised aluminium nameplates, name badges and machine labels, durable enough for a lifetime of handling.",

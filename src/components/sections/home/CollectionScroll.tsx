@@ -45,7 +45,7 @@ export function CollectionScroll() {
                 <p className="eyebrow mb-5">The collection</p>
               </Reveal>
               <SplitText
-                text="Six families of award."
+                text="Five families of award."
                 accent={[3]}
                 className="font-display text-4xl leading-none text-ivory md:text-6xl"
               />
