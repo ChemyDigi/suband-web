@@ -18,8 +18,8 @@ export default function CollectionPage() {
         title="Five families of award."
         accent={[3]}
         body="From solid brass cups to die-struck medals — every form we make, and what each one is for."
-        image="/images/gallery.jpg"
-        alt="Gallery of brass trophies and awards on backlit shelves"
+        image="/images/hero-images/collection.png"
+        alt="The collection"
       />
       <Chapters />
       <Materials />
