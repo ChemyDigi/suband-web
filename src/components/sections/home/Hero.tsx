@@ -61,7 +61,7 @@ export function Hero() {
             className="relative h-full w-full"
           >
             <Image
-              src="/images/hero.jpg"
+              src="/images/hero-images/home.png"
               alt="Museum-quality solid cast brass championship cup trophy on black marble plinth"
               fill
               priority
