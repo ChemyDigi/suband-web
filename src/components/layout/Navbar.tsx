@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion, useMotionValueEvent, useScroll } from "motion/react";
@@ -37,13 +38,23 @@ export function Navbar() {
         )}
       >
         <div className="mx-auto flex h-20 max-w-[1600px] items-center justify-between px-6 md:px-10">
-          <Link href="/" className="group flex flex-col leading-none transition-opacity duration-300 hover:opacity-85">
-            <span className="font-display text-[1.05rem] tracking-wide text-white">
-              Sugathadasa Bandara
-            </span>
-            <span className="eyebrow mt-1 text-[0.55rem] tracking-[0.2em] text-white">
-              & Sons (Pvt) Ltd
-            </span>
+          <Link href="/" className="group flex items-center gap-3 leading-none transition-opacity duration-300 hover:opacity-85">
+            <Image
+              src="/images/SBLogo.png"
+              alt="Sugathadasa Bandara & Sons Logo"
+              width={27}
+              height={36}
+              className="h-9 w-auto object-contain"
+              priority
+            />
+            <div className="flex flex-col">
+              <span className="font-display text-[1.05rem] tracking-wide text-white">
+                Sugathadasa Bandara
+              </span>
+              <span className="eyebrow mt-1 text-[0.55rem] tracking-[0.2em] text-white">
+                & Sons (Pvt) Ltd
+              </span>
+            </div>
           </Link>
 
           <nav className="hidden items-center gap-10 md:flex">

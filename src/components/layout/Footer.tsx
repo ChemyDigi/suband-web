@@ -1,6 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
 import { nav, site } from "@/content/site";
-import { Monogram } from "@/components/ui/Monogram";
 
 export function Footer() {
   return (
@@ -17,7 +17,13 @@ export function Footer() {
         <div className="grid gap-14 md:grid-cols-12">
           <div className="md:col-span-5">
             <div className="flex items-center gap-4">
-              <Monogram className="h-12 w-12 text-gold" />
+              <Image
+                src="/images/SBLogo.png"
+                alt="Sugathadasa Bandara & Sons Logo"
+                width={35}
+                height={48}
+                className="h-12 w-auto object-contain"
+              />
               <div className="leading-none">
                 <p className="font-display text-2xl text-ivory">Sugathadasa Bandara</p>
                 <p className="eyebrow mt-1.5 text-[0.6rem]">& Sons (Pvt) Ltd</p>
